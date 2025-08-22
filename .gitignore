@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / dist
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Coverage & test
+coverage/
+*.lcov
+
+# React specific
+*.tgz
+.eslintcache
+.stylelintcache
+
+# Optional npm/yarn/pnpm lock files (ignore one depending on what you use)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Mongo dump files
+dump/
